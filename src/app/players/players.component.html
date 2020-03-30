@@ -1,0 +1,16 @@
+<body>
+    <div class="arena">
+        <div id="heroes" class="team">
+        </div>
+        <div id="score">
+        </div>
+        <div id="villains" class="team">
+        </div>
+        <div *ngFor="let play of detailedPlayer" class="player">
+            <img src="{{play.image}}" alt="">
+            <div class="name">{{play.name}}</div>
+            <div class="strength">{{play.strength}}</div>
+         </div>
+    </div>
+
+</body>

@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "superwars-two": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "superwars-two"
+    }
+  },
+  "defaultProject": "superwars-two",
+  "cli": {
+    "analytics": "27998b36-4ce1-45a4-8444-c036bc9cb4e7"
+  }
 }
